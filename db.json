@@ -1,9 +1,190 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "cart": [
+    {
+      "id": "1",
+      "name": "선크림",
+      "price": 17100,
+      "image": "/img/01_prod_01.png",
+      "provider": "아이돈케어",
+      "quantity": 1
+    },
+    {
+      "id": "9",
+      "name": "우당탕탕 인테리어 책",
+      "price": 5900,
+      "image": "/img/02_prod_03.png",
+      "provider": "우당탕탕",
+      "quantity": 1
+    },
+    {
+      "id": "12",
+      "name": "우당탕탕 인테리어 책",
+      "price": 5900,
+      "image": "/img/03_prod_01.png",
+      "provider": "우당탕탕",
+      "quantity": 2
+    },
+    {
+      "id": "4",
+      "name": "아이폰 스티커 팩",
+      "price": 1900,
+      "image": "/img/01_prod_04.png",
+      "provider": "문구 판매소",
+      "quantity": 1
+    },
+    {
+      "id": "2",
+      "name": "병풀추출물 토너",
+      "price": 3000,
+      "image": "/img/01_prod_02.png",
+      "provider": "gorigory",
+      "quantity": 3
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "products": [
+    {
+      "id": "1",
+      "cat": "1",
+      "name": "선크림",
+      "provider": "아이돈케어",
+      "price": 17100,
+      "image": "/img/01_prod_01.png"
+    },
+    {
+      "id": "2",
+      "cat": "1",
+      "name": "병풀추출물 토너",
+      "provider": "gorigory",
+      "price": 3000,
+      "image": "/img/01_prod_02.png"
+    },
+    {
+      "id": "3",
+      "cat": "1",
+      "name": "상품이름",
+      "provider": "100-QM",
+      "price": 7000,
+      "image": "/img/01_prod_03.png"
+    },
+    {
+      "id": "4",
+      "cat": "1",
+      "name": "아이폰 스티커 팩",
+      "provider": "문구 판매소",
+      "price": 1900,
+      "image": "/img/01_prod_04.png"
+    },
+    {
+      "id": "5",
+      "cat": "1",
+      "name": "개발자 키보드",
+      "provider": "numpy",
+      "price": 99000,
+      "image": "/img/01_prod_05.png"
+    },
+    {
+      "id": "6",
+      "cat": "1",
+      "name": "개발자 커스텀 케이블",
+      "provider": "보물보따리",
+      "price": 69000,
+      "image": "/img/01_prod_06.png"
+    },
+    {
+      "id": "7",
+      "cat": "2",
+      "name": "문 긁는 고양이",
+      "provider": "집",
+      "price": 1000000,
+      "image": "/img/02_prod_01.png"
+    },
+    {
+      "id": "8",
+      "cat": "2",
+      "name": "우당탕탕 인테리어 책",
+      "provider": "우당탕탕",
+      "price": 5900,
+      "image": "/img/02_prod_02.png"
+    },
+    {
+      "id": "9",
+      "cat": "2",
+      "name": "우당탕탕 인테리어 책",
+      "provider": "우당탕탕",
+      "price": 5900,
+      "image": "/img/02_prod_03.png"
+    },
+    {
+      "id": "10",
+      "cat": "2",
+      "name": "우당탕탕 인테리어 책",
+      "provider": "우당탕탕",
+      "price": 5900,
+      "image": "/img/02_prod_04.png"
+    },
+    {
+      "id": "11",
+      "cat": "2",
+      "name": "우당탕탕 인테리어 책",
+      "provider": "우당탕탕",
+      "price": 5900,
+      "image": "/img/02_prod_05.png"
+    },
+    {
+      "id": "12",
+      "cat": "3",
+      "name": "우당탕탕 인테리어 책",
+      "provider": "우당탕탕",
+      "price": 5900,
+      "image": "/img/03_prod_01.png"
+    },
+    {
+      "id": "13",
+      "cat": "3",
+      "name": "우당탕탕 인테리어 책",
+      "provider": "우당탕탕",
+      "price": 5900,
+      "image": "/img/03_prod_02.png"
+    },
+    {
+      "id": "14",
+      "cat": "3",
+      "name": "우당탕탕 인테리어 책",
+      "provider": "우당탕탕",
+      "price": 5900,
+      "image": "/img/03_prod_03.png"
+    },
+    {
+      "id": "15",
+      "cat": "3",
+      "name": "우당탕탕 인테리어 책",
+      "provider": "우당탕탕",
+      "price": 5900,
+      "image": "/img/03_prod_04.png"
+    },
+    {
+      "id": "16",
+      "cat": "4",
+      "name": "우당탕탕 인테리어 책",
+      "provider": "우당탕탕",
+      "price": 5900,
+      "image": "/img/04_prod_01.png"
+    },
+    {
+      "id": "17",
+      "cat": "4",
+      "name": "우당탕탕 인테리어 책",
+      "provider": "우당탕탕",
+      "price": 5900,
+      "image": "/img/04_prod_02.png"
+    },
+    {
+      "id": "18",
+      "cat": "4",
+      "name": "우당탕탕 인테리어 책",
+      "provider": "우당탕탕",
+      "price": 5900,
+      "image": "/img/04_prod_03.png"
+    }
+  ]
 }
